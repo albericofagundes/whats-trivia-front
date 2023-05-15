@@ -1,0 +1,76 @@
+/* Estilos para o modal */
+.modal-content {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.modal-header {
+  background-color: #4267b2;
+  color: #ffffff;
+  padding: 16px;
+  border-radius: 8px 8px 0 0;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 24px;
+}
+
+/* Estilos para o formulário de cadastro */
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+}
+
+.form-check {
+  margin-top: 8px;
+}
+
+.form-check-label {
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #4267b2;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #395691;
+}
+
+/* Estilos adicionais */
+.modal-backdrop {
+  opacity: 0.7;
+}
+
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 32px);
+}
